@@ -1,7 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Test : MonoBehaviour {
+public class CameraFollow : MonoBehaviour
+{
+
+    public Camera Camera;
+    public Transform target;
 
 	// Use this for initialization
 	void Start () {
@@ -12,4 +16,9 @@ public class Test : MonoBehaviour {
 	void Update () {
 	
 	}
+
+    void Follow()
+    {
+        
+    }
 }
